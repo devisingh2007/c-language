@@ -5,12 +5,12 @@ int main()
     int num, t = 0;
     printf("enter a number :");
     scanf("%d", &num);
-    for (int i = 2; i < num; i++)
+    for (int i = 2; i < num / 2; i++)
     {
         if (num % i == 0)
         {
-            t = 1;
-            break;
+            printf("%d\n", i);
+            
         }
     }
     if (t == 0)
@@ -20,6 +20,5 @@ int main()
     else
     {
         printf("it is not a prime number");
-        
     }
 }
