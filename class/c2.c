@@ -1,23 +1,23 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
 
-{
-    int a;
-    printf("enter your a number:");
-    scanf("%d", &a);
-    if (a % 2 == 0)
-    {
-        printf("%d is diveded by 2 and not diveded by 4", a);
+int main(){
+ char i;
+ printf("enter a To z    and A to Z only\n");
+ printf("enter a charecter ");
+ scanf("%c",&i);
 
-        
-        if (a % 4 == 0)
-        {
-            printf("%d is diveded by 4 and 2 both ", a);
-        }
-    }
-    else
-    {
-        printf("%d is not diveded by 4 and 2 both ", a);
-    }
-    return 0;
+ int a=(int)i;
+
+ if(a>=65 && a<=90)
+ {
+    printf("upper case");
+ }
+
+ else
+ {
+    printf("lower case");
+ }
+
+
+
 }
