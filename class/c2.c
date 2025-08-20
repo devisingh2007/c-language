@@ -10,7 +10,7 @@ int main(){
 
  if(a>=65 && a<=90)
  {
-    printf("upper case");
+    printf("upper hello  case");
  }
 
  else
