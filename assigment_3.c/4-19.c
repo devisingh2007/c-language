@@ -12,7 +12,7 @@ while(i<=a)
 
 {
    b=b*i;
-      i++; 
+      i++;
     }
     
    printf("%d",b);
