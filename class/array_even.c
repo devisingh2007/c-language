@@ -20,7 +20,7 @@ int main()
     {
         printf("int_array[%d] : %d \n", a, array[a]);
     }
-    printf("\n%d" array[12]);
+    printf("\n%d", array[12]);
 
     printf("\n\n");
 
